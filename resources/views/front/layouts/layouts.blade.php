@@ -4,18 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Six States LLC</title>
+    <title>Properties Investment</title>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Alpine.js CDN (for interactivity) -->
+   <!-- Alpine.js CDN (for interactivity) -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
     <!-- Your custom CSS -->
-    <link rel="stylesheet" href="{{ asset('build/assets/app-DwZENJxM.css') }}">
-
-
+    <link rel="stylesheet" href="{{ asset('build/assets/app-Mm78Z79j.css') }}">
+  
 
     <!-- Tailwind Config (for custom colors) -->
     <script>
@@ -38,7 +36,7 @@
 @include('front.layouts.nav')
    @yield('content')
     <!-- Your custom JS -->
-    <script src="{{ asset('build/assets/app-CKl8NZMC.js') }}"></script>
+    <script src="{{ asset('build/assets/app-BuG9aa18.js') }}"></script>
 
     @include('front.layouts.footer')
 

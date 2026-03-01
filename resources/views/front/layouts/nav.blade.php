@@ -4,16 +4,16 @@
     
     <!-- Logo -->
     <a href="/" class="flex items-center gap-2">
-      <img src="logo.png" alt="Properties Investment" class="h-10 w-auto" />
+      <img src="assets/img/logo.png" alt="Properties Investment" class="h-10 w-auto" />
     </a>
 
     <!-- Desktop Nav -->
     <nav class="hidden lg:flex items-center gap-1">
-      <a href="/" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-blue-600 bg-blue-50">Home</a>
+      <a href="/" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+         style="color:#e75740; background-color:rgba(231,87,64,0.08);">Home</a>
       <a href="/houses" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Houses</a>
       <a href="/plots" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Plots</a>
       <a href="/cars" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Cars</a>
-      <a href="/donations" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Donations</a>
       <a href="/investment" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Investment</a>
       <a href="/partnership" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Partnership</a>
       <a href="/consultancy" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">Consultancy</a>
@@ -23,7 +23,10 @@
     <!-- Desktop CTA -->
     <div class="hidden lg:block">
       <a href="/consultancy">
-        <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors">
+        <button class="text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                style="background-color:#e75740;"
+                onmouseover="this.style.backgroundColor='#d4492e';"
+                onmouseout="this.style.backgroundColor='#e75740';">
           Reach to us
         </button>
       </a>
@@ -54,7 +57,8 @@
     class="lg:hidden hidden overflow-hidden bg-white border-t border-gray-200 transition-all duration-300"
   >
     <nav class="flex flex-col p-4 gap-1">
-      <a href="/" onclick="closeMenu()" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-blue-600 bg-blue-50">
+      <a href="/" onclick="closeMenu()" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors"
+         style="color:#e75740; background-color:rgba(231,87,64,0.08);">
         <!-- Home Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7m-9 5v6h4v-6m-4 0H9"/></svg>
         Home
@@ -74,11 +78,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17H3v-5l2-5h14l2 5v5h-2M5 17a2 2 0 104 0M15 17a2 2 0 104 0"/></svg>
         Cars
       </a>
-      <a href="/donations" onclick="closeMenu()" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">
-        <!-- Heart Icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"/></svg>
-        Donations
-      </a>
+    
       <a href="/investment" onclick="closeMenu()" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-gray-500 hover:text-gray-900 hover:bg-gray-100">
         <!-- TrendingUp Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
@@ -102,7 +102,10 @@
 
       <!-- Mobile CTA -->
       <a href="/consultancy" onclick="closeMenu()" class="mt-2">
-        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors">
+        <button class="w-full text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                style="background-color:#e75740;"
+                onmouseover="this.style.backgroundColor='#d4492e';"
+                onmouseout="this.style.backgroundColor='#e75740';">
           Reach to us
         </button>
       </a>
